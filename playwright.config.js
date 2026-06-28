@@ -11,5 +11,9 @@ module.exports = defineConfig({
       name: 'edge',
       use: { ...devices['Desktop Edge'], channel: 'msedge' },
     },
+    {
+      name: 'chrome',
+      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+    },
   ],
 });
